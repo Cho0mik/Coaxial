@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project LIVE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Your exact UI structure -->
+  <div class="app">
+    <h1>Project <i>LIVE</i></h1>
+    
+    <!-- Login Form -->
+    <div id="login">
+      <input type="text" placeholder="Username" class="input-field" id="login-username">
+      <input type="password" placeholder="Password" class="input-field" id="login-password">
+      <button id="login-btn">Login</button>
+      <button id="show-register-btn">Create Account</button>
+    </div>
+    
+    <!-- Register Form -->
+    <div id="register" style="display: none;">
+      <input type="text" placeholder="New Username" class="input-field" id="reg-username">
+      <input type="password" placeholder="New Password" class="input-field" id="reg-password">
+      <button id="register-btn">Register</button>
+      <button id="show-login-btn">Back to Login</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
